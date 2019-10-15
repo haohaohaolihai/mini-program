@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/category/main",
+    "pages/mine/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "发现",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/faxian.png",
+      "selectedIconPath": "static/images/search.png"
+    }, {
+      "text": "分类",
+      "pagePath": "pages/category/main",
+      "iconPath": "static/images/fenlei.png",
+      "selectedIconPath": "static/images/category.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/images/wode.png",
+      "selectedIconPath": "static/images/mine.png"
+    }
+  ],
+
+    "items": [{
+      "name": "发现",
+      "pagePath": "pages/index/main",
+      "icon": "static/images/faxian.png",
+      "activeIcon": "static/images/search.png"
+    }, {
+      "name": "分类",
+      "pagePath": "pages/category/main",
+      "icon": "static/images/fenlei.png",
+      "activeIcon": "static/tabs/category.png"
+    },
+    {
+      "name": "我的",
+      "pagePath": "pages/mine/main",
+      "icon": "static/images/wode.png",
+      "activeIcon": "static/images/mine.png"
+    }
+  ],
+    "position": "bottom"
+  }
+}
